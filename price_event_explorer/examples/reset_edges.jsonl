@@ -1,0 +1,10 @@
+{"seq":1,"timestamp_ns":0,"type":"quote_clear","side":"bid"}
+{"seq":2,"timestamp_ns":0,"type":"trade","price_ticks":1,"size":1}
+{"seq":3,"timestamp_ns":1,"type":"quote_set","side":"ask","price_ticks":1,"size":1}
+{"seq":4,"timestamp_ns":1,"type":"quote_set","side":"ask","price_ticks":1,"size":9}
+{"seq":5,"timestamp_ns":2,"type":"reset"}
+{"seq":6,"timestamp_ns":2,"type":"quote_clear","side":"ask"}
+{"seq":7,"timestamp_ns":3,"type":"trade","price_ticks":9007199254740993,"size":2}
+{"seq":8,"timestamp_ns":4,"type":"quote_set","side":"bid","price_ticks":9223372036854775807,"size":1}
+{"seq":9,"timestamp_ns":5,"type":"reset"}
+{"seq":10,"timestamp_ns":5,"type":"reset"}

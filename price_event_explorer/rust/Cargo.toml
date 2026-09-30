@@ -1,0 +1,14 @@
+[package]
+name = "tapestep"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.85"
+description = "Price and Event Explorer with canonical integer snapshots"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+ctrlc = "3.4"
+serde = "1.0"
+serde_json = "1.0"
+terminal_size = "0.4"
+textwrap = { version = "0.16", default-features = false }

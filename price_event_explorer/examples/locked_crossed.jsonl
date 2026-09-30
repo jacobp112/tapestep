@@ -1,0 +1,6 @@
+{"seq":1,"timestamp_ns":2000,"type":"quote_set","side":"bid","price_ticks":100,"size":5}
+{"seq":2,"timestamp_ns":2000,"type":"quote_set","side":"ask","price_ticks":100,"size":7}
+{"seq":3,"timestamp_ns":2001,"type":"trade","price_ticks":99,"size":2}
+{"seq":4,"timestamp_ns":2002,"type":"quote_set","side":"bid","price_ticks":102,"size":4}
+{"seq":5,"timestamp_ns":2003,"type":"quote_set","side":"ask","price_ticks":103,"size":6}
+{"seq":6,"timestamp_ns":2004,"type":"quote_clear","side":"bid"}

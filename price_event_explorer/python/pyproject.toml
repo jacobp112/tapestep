@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tapestep-explorer"
+version = "1.0.0"
+description = "Deterministic quote and trade event explorer"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+tapestep = "price_event_explorer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["price_event_explorer*"]
